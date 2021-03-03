@@ -1,0 +1,24 @@
+html {
+  font-size: 15px;
+}
+
+h2 {
+  color: green;
+  font-size: 3rem;
+}
+
+header.header {
+  background-color: rgb(213, 207, 7);
+  border-radius: 10px;
+}
+
+nav li.navbar-item {
+  margin: 1px;
+  margin: 1px;
+}
+
+@media (max-width: 400px) {
+  body > header.header nav > h2 {
+    font-size: 2.5rem;
+  }
+}
