@@ -21,12 +21,18 @@
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
 
 
+# snip example
+'.source.js': #Ctrl + Alt + L per trovare il source del linguaggio di cui abbiamo bisogno
+  'Console log': #Descrizione
+    'prefix': 'log' #parola da scrivere per ottenere il codice
+    'body': 'console.log($1)($2)' #il body del nostro codice custom
+    #scritto in questo modo: 'codice' oppure """ codice """
+    # inoltre nel body si indicano i label $1 $2 $3 ecc.. grazie alle quali andiamo
+    # a posizionarci direttamente li saltando al prossimo col tasto TAB
 
-'.source.js':
-  'Console log':
-    'prefix': 'log'
-    'body': 'console.log($1)($2)'
 
+
+# un mio snippet personalizzato
 '.text.html.php':
   'html con jquery & botstrap':
     'prefix': 'fast'
